@@ -1,0 +1,24 @@
+/* src/index.css or your main CSS file */
+
+/* Add Tailwind base styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Styles */
+
+/* src/index.css or appropriate stylesheet */
+.main-container {
+  display: flex;
+  height: 100vh; /* Full height of the viewport */
+}
+
+.block-section-container {
+  width: 250px; /* Fixed width for the left section */
+  overflow-y: auto; /* Scroll if the content overflows */
+}
+
+.graph-section-container {
+  flex-grow: 1; /* Take the remaining space */
+  height: 100%; /* Ensure full height */
+}
